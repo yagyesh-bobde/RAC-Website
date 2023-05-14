@@ -153,6 +153,39 @@ section.home{
     color: white;
     border-radius: 25px;
     background: none;
+    transition: 256ms;
+    animation: buttonShine 6s ease-in-out infinite alternate;
+}
+
+.home_button button:hover {
+    /* background-color: #2EE59D; */
+    /* box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.2); */
+    color: #fff;
+    transform: translateY(-7px);
+    outline: none;
+    border: none;
+}
+@keyframes buttonShine {
+    /* #9fccfa 20%,
+        #0974f1 30%,
+        #00ff87 70%,
+        #103783 80%); */
+    0%{
+        box-shadow: 0px 0 50px 5px #9fccfa;
+            color: #fff;
+    }
+    25%{
+        box-shadow: 0px 0 50px 5px #0974f1;
+            color: #fff;
+    }
+    50%{ 
+        box-shadow: 0px 0 50px 5px #00ff87;
+            color: #fff;
+    }
+    100% {
+    box-shadow: 0px 0 50px 5px #103783;
+        color: #fff;
+    }
 }
 
 /* rest sections */
