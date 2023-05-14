@@ -25,64 +25,87 @@
           href="css/style.css">
     <link rel="stylesheet"
           href="css/common.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 
 <body>
     <nav>
         <h1>
             <a href="#home">
-                <img src="./assets/logo.jpg" width="200" height="100%" alt="" srcset=""  >
+                <img src="./assets/logo.jpg"
+                     width="200"
+                     height="100%"
+                     alt=""
+                     srcset="">
             </a>
         </h1>
         <ul class="nav_menu">
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="pages/team.html">Team</a></li>
+            <li><a href="team.html">Team</a></li>
             <li><a href="#achievements">Achievements</a></li>
         </ul>
     </nav>
-    
-    <section id="home" class="home">
+
+    <section id="home"
+             class="home">
         <header>
             <p class="homeTitleWord">Robotics</p>
             <p class="homeTitleWord biggerTitle">X</p>
             <p class="homeTitleWord">Aviation</p>
         </header>
         <p class="subheading">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, perferendis, veritatis corporis debitis beatae tenetur quaerat, soluta pariatu 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, perferendis, veritatis corporis debitis
+            beatae tenetur quaerat, soluta pariatu
         </p>
         <div class="home_button flex flex-center">
             <button class="btn m-auto">
-                Wanna Join Us 
+                Wanna Join Us
             </button>
         </div>
     </section>
-    
-    <section id="about" class="newsection">
-        <header  class="flex" style="padding: 0 0 0 10%"> 
-            <h2>What is Robionics ?
+
+    <section id="about"
+             class="newsection">
+        <header data-aos="fade-up"
+                class="flex"
+                style="padding: 0 0 0 10%">
+            <h2 data-aos="fade-up">What is Robionics ?
             </h2>
             <!-- <img src="assets/drone.png"
                  width="75"
                  alt=""
                  srcset=""> -->
         </header>
-        <div class="aboutMain flex items-center" style="height: 75%;">
-            <div class="aboutLogo flex flex-center">
-                <img src="assets/logo.jpg" width="100%" alt="" srcset="">
+        <div class="aboutMain flex items-center"
+             style="height: 75%;">
+            <div data-aos="fade-right" class="aboutLogo flex flex-center">
+                <img src="assets/logo.jpg"
+                     width="100%"
+                     alt=""
+                     srcset="">
             </div>
-            <div class="aboutDescription flex flex-col gap">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto omnis nulla id molestias odit nobis? Provident consectetur qui doloremque quibusdam laborum quas impedit vitae perspiciatis? Veritatis neque animi omnis.</p>
+            <div  data-aos="fade-right" data-aos-delay="100" class="aboutDescription flex flex-col gap">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto omnis nulla id molestias
+                    odit nobis? Provident consectetur qui doloremque quibusdam laborum quas impedit vitae perspiciatis?
+                    Veritatis neque animi omnis.</p>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dolor reprehenderit explicabo voluptas sit eaque sequi ullam nostrum animi aliquid eum rerum, fuga cupiditate quis officia quia quasi nam voluptate quod mollitia? Soluta est ducimus omnis illum inventore doloremque voluptates.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dolor reprehenderit explicabo voluptas
+                    sit eaque sequi ullam nostrum animi aliquid eum rerum, fuga cupiditate quis officia quia quasi nam
+                    voluptate quod mollitia? Soluta est ducimus omnis illum inventore doloremque voluptates.
                 </p>
             </div>
         </div>
     </section>
 
-    <section id="team" class="newsection">
-        <header class="flex flex-center"
-                >
+    <section id="team"
+             class="newsection">
+        <header class="flex flex-center">
             <h2>Team</h2>
             <!-- <img src="assets/drone.png"
                          width="75"
@@ -106,7 +129,8 @@
         </div>
     </section>
 
-    <section id="achievements" class="newsection">
+    <section id="achievements"
+             class="newsection">
         <header class="flex flex-center"
                 style="padding: 0 0 0 10%">
             <h2>Achievements</h2>
@@ -116,17 +140,20 @@
                                  srcset=""> -->
         </header>
     </section>
-    
+
     <!-----------------------Footer-->
     <footer class="footer">
         <div class="container footer_container">
             <div class="footer_1">
                 <a href="index.html"
                    class="footer_logo">
-                    <img src="assets/logo.jpg" width="250" alt="" srcset="">
+                    <img src="assets/logo.jpg"
+                         width="250"
+                         alt=""
+                         srcset="">
                 </a>
             </div>
-    
+
             <div class="footer_2">
                 <h4>Permalinks</h4>
                 <ul class="permalinks">
@@ -136,7 +163,7 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-    
+
             <div class="footer_3">
                 <h4>Primary</h4>
                 <ul>
@@ -145,7 +172,7 @@
                     <li><a href="#">Refund Policy</a></li>
                 </ul>
             </div>
-    
+
             <div class="footer_4">
                 <h4>Contact Us</h4>
                 <div>
@@ -159,13 +186,22 @@
                     <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
                 </ul>
             </div>
-    
+
         </div>
         <div class="footer_copyright">
             <small>All rights owned by Robioncis
             </small>
         </div>
     </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 500
+        });
+    </script>
 </body>
 
 </html>

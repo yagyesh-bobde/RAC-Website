@@ -2,18 +2,18 @@
     padding: 25px 10%;
     width: 100%;
     margin-top: 10vh;
-    color: black;
 }
 
 .teamMain header{ 
     text-align: center;
+    color: white;
 }
 
 /* all members */
 .allMembers{ 
-    display: flex;
-    justify-content: space-around;
-    gap: 25px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .allMembers .card{ 
     position: relative;
@@ -40,6 +40,7 @@
 
 .allMembers .card:hover .content{ 
     opacity : 1;
+    transform: translateY(-20px);
 }
 
 .allMembers .card .content .imgBx{ 
