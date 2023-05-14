@@ -32,7 +32,19 @@
     justify-content: center;
     align-items: center;
 }
+.flex-col{ 
+    flex-direction: column;
+}
+.gap{ 
+    gap: 25px;
+}
+.items-center{ 
+    align-items: center;
+}
 
+.h-full {
+    height: 100%;
+}
 .text-center { 
     text-align: center;
 }

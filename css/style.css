@@ -30,6 +30,8 @@
     --container-width-sm: 94%;
 
     --transition: all 400ms ease;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
 }
 
 body {
@@ -108,11 +110,11 @@ section.home{
 
 .homeTitleWord{ 
     font-size: 6rem;
-        background: linear-gradient(to right,
-                    #9fccfa 20%,
-                    #0974f1 30%,
-                    #00ff87 70%,
-                    #103783 80%);
+    background: linear-gradient(to right,
+                #9fccfa 20%,
+                #0974f1 30%,
+                #00ff87 70%,
+                #103783 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -128,10 +130,6 @@ section.home{
         background-position: 100% 50%;
     }
 }
-.homeTitleWord:hover{ 
-    
-}
-
 .biggerTitle{
     font-size: 10rem;
 }
@@ -188,9 +186,80 @@ section.home{
     }
 }
 
+
+
 /* rest sections */
 .newsection {
     margin-top : 5%;
 }
 
 /* about */
+#about header img {
+    animation: rotate360 6s ease-in-out infinite alternate;
+    transform: rotateY(25deg);
+}
+@keyframes rotate360 {
+    0% {
+        transform: rotate3d(0deg);
+    }
+    100% { 
+        transform: rotate3D(360deg);
+    }
+}
+
+.newsection header h2{ 
+    font-size: 2.75rem;
+}
+
+.aboutDescription{ 
+    width: 75%;
+    padding: 0 10% 0 0;
+}
+
+
+
+
+
+/*----------------------footer---------------------*/
+footer {
+    background: var(--color-black);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.footer_container>div h4 {
+    margin-bottom: 1.2rem;
+}
+
+.footer_1 p {
+    margin: 1rem 0 2rem;
+}
+
+.footer ul li a :hover {
+    text-decoration: underline;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+
+}
+.footer_socials i{ 
+    color: white !important;
+}
+
+.footer_copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+}
