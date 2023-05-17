@@ -66,26 +66,41 @@ body {
 
 /* navigation */
 nav {
-    margin-top: 15px;
-    background: rgba(0, 0, 0, 0.4);
+    /* margin-top: 15px; */
+    /* background: rgba(0, 0, 0, 0.4); */
+    background: rgb(25 25 25 / 10%);
+    border-radius: 15px;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    width: 100vw;
-    height: 5rem;
-    position: fixed;
-    top: 0;
+    width: 91vw;
+    height: 10vh;
+    position: sticky;
+    top: 15px;
+    left: 5%;
     z-index: 11;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10%;
+    
     /* border-radius: 0 0 50px 150px; */
     /* border-bottom: 1px solid rgba(255,255,255, 0.25); */
-    border: 1px solid rgba(255,255,255, 0.25);
-    box-shadow: 0 0px 15px 0px gray;
+    /* border-bottom: 1px solid rgba(255,255,255, 0.25); */
+    box-shadow: 0 0px 10px -5px gray;
     /* box-shadow: 0px 0 25px 5px #9fccfa; */
     color: #fff;
 }
+
+#navDiv{ 
+    position: relative;
+    padding: 0 10%;
+    height: 100%;
+}
+#progress{ 
+        position: absolute;
+        /* top: 12px; */
+        left: 0;
+        height: 10vh;
+        background: rgb(25 25 25 / 40%);
+        width: 10%;
+}
+
 
 nav h1 a { 
     color: white !important;
@@ -101,8 +116,9 @@ nav h1 a {
     align-items: center;
     justify-content: center;
     height: 100%;
+    border-bottom : 1px solid var(--color-green);
 }
-.nav_menu:first-child {
+.nav_menu:nth-child(1) {
     border-bottom: 5px solid var(--color-green);
 }
 
@@ -187,6 +203,7 @@ section.home{
 }
 
 .home_button button:hover {
+    cursor: pointer;
     background-color: #2EE59D;
     color: #fff;
     transform: translateY(-7px);
@@ -199,19 +216,19 @@ section.home{
         #00ff87 70%,
         #103783 80%); */
     0%{
-        box-shadow: 0px 0 50px 5px #9fccfa;
+        box-shadow: 0px 0 25px 0px #9fccfa;
             color: #fff;
     }
     25%{
-        box-shadow: 0px 0 50px 5px #0974f1;
+        box-shadow: 0px 0 25px 0px #0974f1;
             color: #fff;
     }
     50%{ 
-        box-shadow: 0px 0 50px 5px #00ff87;
+        box-shadow: 0px 0 25px 0px #00ff87;
             color: #fff;
     }
     100% {
-    box-shadow: 0px 0 50px 5px #103783;
+    box-shadow: 0px 0 25px 0px #103783;
         color: #fff;
     }
 }

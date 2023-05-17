@@ -48,3 +48,6 @@
 .text-center { 
     text-align: center;
 }
+.justify-between{ 
+    justify-content: space-between;
+}

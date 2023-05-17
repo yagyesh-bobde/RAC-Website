@@ -35,6 +35,10 @@
 
 <body>
     <nav>
+        <div id="navDiv" class="flex justify-between items-center" style="width: 100%;" >
+            <div id="progress">
+
+            </div>
         <h1>
             <a href="#home">
                 <img src="./assets/logo.jpg"
@@ -51,6 +55,7 @@
             <li><a href="#achievements">Achievements</a></li>
             <li><a href="#faqs">FAQs</a></li>
         </ul>
+        </div>
     </nav>
     <main>
     <section id="home"
@@ -166,6 +171,9 @@
                                  alt=""
                                  srcset=""> -->
         </header>
+        <div class="achievements">
+            
+        </div>
     </section>
 
     <!-- FAQs -->
@@ -337,6 +345,16 @@
             offset: 150,
             duration: 500
         });
+
+
+
+        // scrolling progress
+        window.onscroll = function () {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("progress").style.width = scrolled + "%";
+        }
     </script>
 </body>
 
