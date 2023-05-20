@@ -24,4 +24,10 @@ This is the first prototype site for the RxA club.
     <td><a href="https://www.linkedin.com/in/bobde-yagyesh" target="_blank" >https://www.linkedin.com/in/bobde-yagyesh</a></td>
     <td><a href="https://github.com/yagyesh-bobde" target="_blank" >https://github.com/yagyesh-bobde</a></td>
     <td><a href="https://www.linkedin.com/in/bobde-yagyesh" target="_blank" > https://www.linkedin.com/in/bobde-yagyesh </a></td>
+     <tr>
+    <td>2.</td>
+    <td>Ankit Raj</td>
+    <td><a href="https://www.linkedin.com/feed/" target="_blank" >https://www.linkedin.com/feed/</a></td>
+    <td><a href="https://github.com/ankitrajrj" target="_blank" >https://github.com/ankitrajrj</a></td>
+    <td><a href="https://www.linkedin.com/feed/" target="_blank" > https://www.linkedin.com/feed/ </a></td>
 ### Name of Contributors
