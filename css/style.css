@@ -7,6 +7,27 @@
     list-style: none;
     box-sizing: border-box;
 }
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    background: #2b2d31;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2b2d31;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #484c55;
+    border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 :root {
 
@@ -40,29 +61,9 @@ body {
     color: var(--color-white) !important;
     /* background: var(--color-black); */
     background: #000 !important;
+    overflow-x: hidden;
 }
 
-/* scrollbar */
-::-webkit-scrollbar {
-    width: 8px;
-    background: #2b2d31;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #2b2d31;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #484c55;
-    border-radius: 25px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
 
 
 /* navigation */
@@ -150,9 +151,11 @@ section {
 section.home{ 
     display: grid;
     width: 100%;
+    height: 90vh;
     place-content: center;
+    padding: 5% 10%;
 }
-.home header{ 
+#home header{ 
     display: flex;
     gap: 50px;
     align-items: center;
@@ -484,7 +487,7 @@ section.home{
 
 /*----------------------footer---------------------*/
 footer {
-    background: var(--color-black);
+    background:#0e0e0e;
     padding-top: 5rem;
     font-size: 0.9rem;
     width: 100%;
