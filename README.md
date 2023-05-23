@@ -1,6 +1,6 @@
 # Roboics X Aviation Club 
 This is the first prototype site for the RxA club.
-
+Site is live at : https://yagyesh-bobde.github.io/RAC-Website/
 ## How to contribute 
 1. Fork the repo
 2. Clone it in your local env
