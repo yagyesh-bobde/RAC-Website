@@ -30,4 +30,11 @@ Site is live at : https://yagyesh-bobde.github.io/RAC-Website/
     <td><a href="https://www.linkedin.com/feed/" target="_blank" >https://www.linkedin.com/feed/</a></td>
     <td><a href="https://github.com/ankitrajrj" target="_blank" >https://github.com/ankitrajrj</a></td>
     <td><a href="https://www.linkedin.com/feed/" target="_blank" > https://www.linkedin.com/feed/ </a></td>
+        <tr>
+    <td>1.</td>
+    <td>Tejas Gangane</td>
+    <td><a href="https://www.linkedin.com/in/tejas-gangane-b35b77254/" target="_blank" >https://www.linkedin.com/in/TejasGangane</a></td>
+    <td><a href="https://github.com/TejasGangane" target="_blank" >https://github.com/TejasGangane</a></td>
+    <td><a href="https://instagram.com/tejas_gangane.44?igshid=MzNlNGNkZWQ4Mg==" target="_blank" > https://www.instagram.com/in/TejasGangane </a></td>
+     <tr>
 ### Name of Contributors
